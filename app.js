@@ -47,5 +47,8 @@ text="Buenas noches 👋";
 document.getElementById("greeting").textContent=text;
 
 
+function openAdmin(){
 
-});
+window.location.href="admin.html";
+
+}
