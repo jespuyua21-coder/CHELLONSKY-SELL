@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Ventas</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+
+<h1>🛒 Nueva venta</h1>
+
+<div class="card">
+
+<input id="producto" placeholder="Producto">
+
+<input id="cantidad" type="number" placeholder="Cantidad">
+
+<input id="precio" type="number" placeholder="Precio">
+
+
+<input id="cliente" placeholder="Cliente">
+
+<input id="telefono" placeholder="Teléfono">
+
+
+<input id="vendedor" placeholder="Vendedor">
+
+
+<select id="pago">
+<option>Pagado</option>
+<option>Crédito</option>
+</select>
+
+
+<button onclick="registrarVenta()">
+Guardar venta
+</button>
+
+</div>
+
+
+<div id="ventas"></div>
+
+<a href="index.html">← Inicio</a>
+
+</div>
+
+
+<script src="data.js"></script>
+<script src="ventas.js"></script>
+<script src="tickets.js"></script>
+
+</body>
+</html>
