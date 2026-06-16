@@ -49,6 +49,6 @@ document.getElementById("greeting").textContent=text;
 
 function openAdmin(){
 
-window.location.href="admin.html";
+window.location.href="./admin.html";
 
 }
