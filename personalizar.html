@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Personalización</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+
+<h1>🎨 Personalización</h1>
+
+<div class="card">
+
+<input id="negocio" placeholder="Nombre del negocio">
+
+<label>Color principal</label>
+<input id="color" type="color" value="#2563eb">
+
+<select id="fuente">
+<option>Inter</option>
+<option>Poppins</option>
+<option>Montserrat</option>
+<option>Elegante</option>
+</select>
+
+<select id="tema">
+<option>Sistema</option>
+<option>Claro</option>
+<option>Oscuro</option>
+</select>
+
+<button onclick="guardarConfig()">
+Guardar diseño
+</button>
+
+</div>
+
+<div class="card">
+<h3>Vista previa</h3>
+<p id="preview">Mi negocio</p>
+</div>
+
+<a href="index.html">← Inicio</a>
+
+</div>
+
+<script src="data.js"></script>
+<script src="personalizar.js"></script>
+
+</body>
+</html>
