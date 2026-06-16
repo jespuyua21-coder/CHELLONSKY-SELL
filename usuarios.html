@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Usuarios</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+
+<h1>🔐 Usuarios y permisos</h1>
+
+<div class="card">
+
+<input id="nombre" placeholder="Nombre">
+
+<select id="rol">
+<option>Administrador</option>
+<option>Vendedor</option>
+<option>Repartidor</option>
+</select>
+
+<button onclick="crearUsuario()">
+Guardar usuario
+</button>
+
+</div>
+
+<div id="lista"></div>
+
+<a href="index.html">← Inicio</a>
+
+</div>
+
+<script src="data.js"></script>
+<script src="usuarios.js"></script>
+
+</body>
+</html>
