@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Empleados</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+
+<h1>👷 Empleados</h1>
+
+<div class="card">
+
+<input id="nombre" placeholder="Nombre trabajador">
+
+<select id="rol">
+<option>Vendedor</option>
+<option>Administrador</option>
+<option>Repartidor</option>
+</select>
+
+<button onclick="guardarEmpleado()">
+Guardar
+</button>
+
+</div>
+
+<div id="lista"></div>
+
+<a href="index.html">← Inicio</a>
+
+</div>
+
+<script src="data.js"></script>
+<script src="empleados.js"></script>
+
+</body>
+</html>
