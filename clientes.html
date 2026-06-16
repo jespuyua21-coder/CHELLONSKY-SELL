@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Clientes</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+
+<h1>👥 Clientes</h1>
+
+<div class="card">
+
+<input id="nombre" placeholder="Nombre del negocio">
+
+<input id="telefono" placeholder="Teléfono">
+
+<select id="tema">
+<option value="system">Sistema</option>
+<option value="light">Claro</option>
+<option value="dark">Oscuro</option>
+</select>
+
+<input id="color" type="color" value="#2563eb">
+
+<select id="font">
+<option>Inter</option>
+<option>Poppins</option>
+<option>Montserrat</option>
+<option>Elegante</option>
+</select>
+
+<button onclick="crearCliente()">
+Guardar cliente
+</button>
+
+</div>
+
+<div id="lista"></div>
+
+<a href="admin.html">← Admin</a>
+
+</div>
+
+<script src="data.js"></script>
+<script src="clientes.js"></script>
+
+</body>
+</html>
